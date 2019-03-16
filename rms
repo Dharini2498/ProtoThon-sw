@@ -1,0 +1,12 @@
+import math
+a = input("Enter the list")
+a=(a.split(","))
+b=list(map(int,a))
+print(b)
+
+a1=[i**2 for i in b]
+print(a1)
+b=sum(a1)
+print(b)
+c=math.sqrt(b)
+print(c)
