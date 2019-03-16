@@ -1,0 +1,12 @@
+import numpy as np
+import matplotlib.pyplot as py
+img=py.imread("C:\\Users\poovishnu94\Pictures\Screenshots\Screenshot.png")
+py.imshow(img)
+rgb=img.shape
+print(rgb)
+def gray(rgb):
+   fill=[0.299, 0.587, 0.144,0]
+   return np.dot(rgb, fill)
+
+img = gray(img)
+py.imshow(img,'gray')
