@@ -1,0 +1,5 @@
+a= "The quick brown fox jumps over the lazy dog"
+print(a.capitalize())
+print(a.title())
+print(a.upper())
+print(a.lower())
