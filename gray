@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as py
-img=py.imread("C:\\Users\poovishnu94\Pictures\Screenshots\Screenshot.png")
+img=py.imread("C:\Users\poovishnu94\Pictures\Screenshots\Screenshot.png")
 py.imshow(img)
 rgb=img.shape
 print(rgb)
